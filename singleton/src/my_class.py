@@ -7,5 +7,6 @@ class SaySomething:
         print(self.message)
         print(hex(id(self.message)))
 
+
     def change_message(self, new_message):
         self.message = new_message

@@ -1,4 +1,4 @@
-from elemento1 import el1
-from elemento2 import el2
+from instance1 import inst1
+from instance2 import inst2
 
-el2.say()
+inst2.say()
