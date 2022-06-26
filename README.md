@@ -22,6 +22,12 @@ Certeza de que só tem uma única classe.
 Ponto de acesso global à classe.
 Objeto inicializado somente quando for chamado pela primeira vez.
 
+Contras:
+Viola o princípio da responsabilidade única (SOLID).
+Difícil realizar testes unitários em decorrência da violação da responsabilidade única.
+O padrão Singleton pode mascarar um design ruim.
+O padrão requer tratamento especial em um ambiente multithreaded para que múltiplas threads não possam criar um objeto singleton várias vezes.
+
 ### Features
 
 - [x] Design Pattern Singleton
