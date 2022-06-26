@@ -2,6 +2,10 @@
 
 Atividade de Design Pattern
 
+### 🎥 Link Video
+
+Link: https://drive.google.com/drive/folders/1NGvflyIaOQhxTYlYG_knRIhAdvyS0VQM?usp=sharing
+
 ### 📄 Material Explicativo
 
 Motivo:
