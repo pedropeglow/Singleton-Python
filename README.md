@@ -22,15 +22,15 @@ No código criado, uma classe possui uma mensagem com erro de português. Com o 
 É claro que se o objetivo é manter a instancia global imutável, podemos proteger a classe.
 
 Pros:
-Certeza de que só tem uma única classe.
-Ponto de acesso global à classe.
-Objeto inicializado somente quando for chamado pela primeira vez.
+<p>Certeza de que só tem uma única classe.</p>
+<p>Ponto de acesso global à classe.</p>
+<p>Objeto inicializado somente quando for chamado pela primeira vez.<p>
 
 Contras:
-Viola o princípio da responsabilidade única (SOLID).
-Difícil realizar testes unitários em decorrência da violação da responsabilidade única.
-O padrão Singleton pode mascarar um design ruim.
-O padrão requer tratamento especial em um ambiente multithreaded para que múltiplas threads não possam criar um objeto singleton várias vezes.
+<p>Viola o princípio da responsabilidade única (SOLID).</p>
+<p>Difícil realizar testes unitários em decorrência da violação da responsabilidade única.</p>
+<p>O padrão Singleton pode mascarar um design ruim.</p>
+<p>O padrão requer tratamento especial em um ambiente multithreaded para que múltiplas threads não possam criar um objeto singleton várias vezes.</p>
 
 ### Features
 
