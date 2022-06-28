@@ -21,16 +21,16 @@ Exemplo de aplicabilidade no código:
 No código criado, uma classe possui uma mensagem com erro de português. Com o singleton, ainda que os erros sejam corrigidos em outra instância, a instância global também acaba sendo corrigida.
 É claro que se o objetivo é manter a instancia global imutável, podemos proteger a classe.
 
-<p>Pros:
+#Pros
   -Certeza de que só tem uma única classe;
   -Ponto de acesso global à classe;
-  -Objeto inicializado somente quando for chamado pela primeira vez.<p>
+  -Objeto inicializado somente quando for chamado pela primeira vez.
 
-<p>Contras:
+#Contras
   -Viola o princípio da responsabilidade única (SOLID);
   -Difícil realizar testes unitários em decorrência da violação da responsabilidade única;
   -O padrão Singleton pode mascarar um design ruim;
-  -O padrão requer tratamento especial em um ambiente multithreaded para que múltiplas threads não possam criar um objeto singleton várias vezes.</p>
+  -O padrão requer tratamento especial em um ambiente multithreaded para que múltiplas threads não possam criar um objeto singleton várias vezes.
 
 
 ### Features
